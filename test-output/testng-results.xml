@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-16T23:44:33 EDT" name="Juice and Shakes" finished-at="2022-06-16T23:44:33 EDT" duration-ms="47">
+    <groups>
+      <group name="Favourite Items">
+        <method signature="Chikoo.chikoo()[pri:0, instance:Milkshakes.Chikoo@732c2a62]" name="chikoo" class="Milkshakes.Chikoo"/>
+        <method signature="Chocolate.Oreo()[pri:0, instance:Thickshakes.Chocolate@702b8b12]" name="Oreo" class="Thickshakes.Chocolate"/>
+        <method signature="Pineapple.khattaPineapple()[pri:0, instance:FreshJuice.Pineapple@1ba9117e]" name="khattaPineapple" class="FreshJuice.Pineapple"/>
+      </group> <!-- Favourite Items -->
+    </groups>
+    <test started-at="2022-06-16T23:44:33 EDT" name="Test" finished-at="2022-06-16T23:44:33 EDT" duration-ms="47">
+      <class name="Thickshakes.Chocolate">
+        <test-method signature="Oreo()[pri:0, instance:Thickshakes.Chocolate@702b8b12]" started-at="2022-06-16T23:44:33 EDT" name="Oreo" finished-at="2022-06-16T23:44:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Oreo -->
+      </class> <!-- Thickshakes.Chocolate -->
+      <class name="FreshJuice.Pineapple">
+        <test-method signature="khattaPineapple()[pri:0, instance:FreshJuice.Pineapple@1ba9117e]" started-at="2022-06-16T23:44:33 EDT" name="khattaPineapple" finished-at="2022-06-16T23:44:33 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- khattaPineapple -->
+      </class> <!-- FreshJuice.Pineapple -->
+      <class name="Milkshakes.Chikoo">
+        <test-method signature="chikoo()[pri:0, instance:Milkshakes.Chikoo@732c2a62]" started-at="2022-06-16T23:44:33 EDT" name="chikoo" finished-at="2022-06-16T23:44:33 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chikoo -->
+      </class> <!-- Milkshakes.Chikoo -->
+    </test> <!-- Test -->
+  </suite> <!-- Juice and Shakes -->
+</testng-results>

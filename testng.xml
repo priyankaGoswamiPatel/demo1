@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Juice and Shakes">
+  <test thread-count="5" name="Test">
+  <groups>
+      <run>
+          <include name="Favourite Items"/>
+      </run>
+  </groups>
+  <classes>
+  <class name="FreshJuice.Mango"/>
+  <class name="FreshJuice.Pineapple"/>
+  <class name="Milkshakes.Chikoo"/>
+  <class name="Milkshakes.Chikoo"/>
+  <class name="Thickshakes.Chocolate"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
